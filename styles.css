@@ -1,0 +1,94 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+
+}
+
+p{
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+/* ------------- */
+/* RESET */
+/* ------------- */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* ------------- */
+/* COMPONENTS */
+/* ------------- */
+
+body{
+    background-color: var(--LightGray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    
+    width: 50vmin;
+    height: 80vmin;
+    background-color: var(--White);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.image{
+    border-radius: 20px;
+    padding: .8em;
+
+}
+
+.first-para{
+    font-weight: 700;
+    padding: 0 1.5em .5em;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.sec-para{
+    font-weight: 400;
+    padding-inline: .8em ;
+    text-align: center;
+    color: var(--GrayishBlue);
+    font-size: 13px;
+}
